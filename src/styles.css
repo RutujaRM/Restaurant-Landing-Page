@@ -1,0 +1,109 @@
+.App {
+  font-family: sans-serif;
+  margin: -8px;
+}
+#outside_div {
+  padding: 5rem;
+  background-color: #ffc4c4;
+}
+#inner_div {
+  background-color: white;
+  height: 236.5vh;
+  border-radius: 1rem;
+}
+nav {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 4rem;
+  padding: 1rem;
+  font-size: 25px;
+  border-radius: 0.5rem;
+}
+.nav_div {
+  width: 30%;
+  margin-top: 1.5rem;
+}
+.nav_div span {
+  color: crimson;
+}
+.span_div {
+  width: 70%;
+  text-align: end;
+  margin-top: 1.5rem;
+}
+span {
+  padding: 1.5rem;
+}
+.flex_container {
+  display: flex;
+  height: 50vh;
+  margin-top: 5rem;
+}
+#div1 {
+  width: 50%;
+  text-align: center;
+  height: 80vh;
+  background-image: url("https://img.freepik.com/free-vector/pink-fizzing-air-water-white-background-bubble-gum-collagen-bubbles_145391-1033.jpg?size=626&ext=jpg&uid=R77825530&ga=GA1.2.24537630.1644657804");
+  background-size: 730px;
+  background-repeat: no-repeat;
+}
+#div1 h1 {
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+#div2 {
+  width: 45%;
+  background-image: url("https://img.freepik.com/free-vector/hand-drawn-flat-design-people-eating-illustration_23-2149194113.jpg?size=626&ext=jpg&uid=R77825530&ga=GA1.2.24537630.1644657804");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  border-radius: 0.5rem;
+  position: relative;
+}
+button {
+  height: 3.5rem;
+  width: 9rem;
+  border-radius: 2rem;
+  opacity: 1;
+  font-weight: bolder;
+  margin-top: 2rem;
+  border: 2px solid rgb(14, 150, 204);
+}
+#orange {
+  color: orangered;
+}
+.flex_container2 {
+  display: flex;
+  height: 80vh;
+  margin-top: 10rem;
+}
+img {
+  margin-top: 7rem;
+  height: 30rem;
+  width: 40rem;
+}
+#search {
+  height: 2.5rem;
+  width: 30rem;
+  border-radius: 0.5rem;
+  box-shadow: 1rem 1rem 2rem pink;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1rem;
+  border: 2px solid rgb(14, 150, 204);
+}
+#blue {
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 3rem;
+  color: rgb(6, 113, 155);
+  text-shadow: 0.5rem 1rem 0.5rem rgb(6, 113, 155);
+}
+#footer_img {
+  height: 20rem;
+  width: 40rem;
+  margin-left: 45rem;
+}
